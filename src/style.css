@@ -1,0 +1,134 @@
+*
+{
+    box-sizing: border-box;
+    background-color: #16003B;
+}
+.body
+{
+    margin: 0;
+    padding: 0;
+}
+.card
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.digital-card {
+    height: 700px;
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background: #23252C;
+}
+.digital-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.digital-card > h3
+{
+    font-size: 30px;
+    background-color: #23252C;
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.title
+{
+    font-size: 20px;
+    background-color: #23252C;
+    margin-top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+.digital-card > a
+{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+/* white */
+
+    background: #FFFFFF;
+/* gray/300 */
+
+    border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.digital-card>h4
+{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    background-color: #23252C;
+    color: #F5F5F5;
+}
+.about
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+/* or 15px */
+
+    background-color: #23252C;
+    color: #DCDCDC;
+}
+.interests
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+/* or 15px */
+    background-color: #23252C;
+
+    color: #DCDCDC;
+}
+.social-media
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 15px;
+    background-color: #23252C;
+}
